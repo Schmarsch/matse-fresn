@@ -36,14 +36,14 @@
   <p align="center">
     Zum abstimmen wo man in der Pause isst!
     <br />
-    <a href="https://Schmarsch/matse-fresn"><strong>Erstaune unsere docs »</strong></a>
+    <a href="https://github.com/Schmarsch/matse-fresn"><strong>Erstaune unsere docs »</strong></a>
     <br />
     <br />
-    <a href="https://Schmarsch/matse-fresn">Schau dir die Demo an</a>
+    <a href="https://github.com/Schmarsch/matse-fresn">Schau dir die Demo an</a>
     ·
-    <a href="https://Schmarsch/matse-fresn/issues">Reporte Bug für uns</a>
+    <a href="https://github.com/Schmarsch/matse-fresn/issues">Reporte Bug für uns</a>
     ·
-    <a href="https://Schmarsch/matse-fresn/issues">Erfrage unwichtige Features an</a>
+    <a href="https://github.com/Schmarsch/matse-fresn/issues">Erfrage unwichtige Features an</a>
   </p>
 </div>
 
@@ -123,7 +123,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 - [x] Projekt aufsetzen!
 
-Schau einfach auf die [offenen issues](https://github.com/othneildrew/Best-README-Template/issues) an du Fettsack!
+Schau einfach auf die [offenen issues](https://github.com/Schmarsch/matse-fresn/issues) an du Fettsack!
 
 <p align="right">(<a href="#readme-top">fettsack button</a>)</p>
 
