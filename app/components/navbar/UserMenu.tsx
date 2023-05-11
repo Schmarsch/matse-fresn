@@ -1,14 +1,14 @@
 "use client";
 
-import { User } from "@prisma/client";
 import { useCallback, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import Avatar from "../Avatar";
 import MenuItem from "./MenuItem";
 import { signOut,signIn } from "next-auth/react";
+import { SafeUser } from "@/app/types";
 
 interface UserMenuprops {
-	currentUser?: User | null;
+	currentUser?: SafeUser | null;
 }
 
 const UserMenu: React.FC<UserMenuprops> = ({ currentUser }) => {
@@ -17,8 +17,6 @@ const UserMenu: React.FC<UserMenuprops> = ({ currentUser }) => {
 	const toggleOpen = useCallback(() => {
 		setIsOpen((prev) => !prev);
 	}, []);
-
-    console.log(currentUser);
 
 	return (
 		<div className="relative">

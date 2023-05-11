@@ -1,15 +1,11 @@
 "use client";
-
-import { User } from "@prisma/client";
 import Container from "../Container";
 import { GiDonerKebab } from "react-icons/gi";
-import { AiFillGithub } from "react-icons/ai";
-import Button from "../Button";
-import { signIn } from "next-auth/react";
 import UserMenu from "./UserMenu";
+import { SafeUser } from "@/app/types";
 
 interface NavbarProps {
-	currentUser?: User | null;
+	currentUser?: SafeUser | null;
 }
 
 const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
